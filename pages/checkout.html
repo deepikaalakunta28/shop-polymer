@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-image.png" type="image/x-icon">
+    <title>Checkout - SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <header class="header-content">
+
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+
+            <div class="sidebar">
+                <div class="shopping-items">
+                    <a href="../pages/mens-outerwear.html">Men's Outerwear</a>
+                    <a href="../pages/ladies-outerwear.html">Ladies Outerwear</a>
+                    <a href="">Men's T-Shirts</a>
+                    <a href="">Ladies T-Shirts</a>
+                </div>
+            </div>
+
+            <a href="../index.html" id="shop">SHOP</a>
+            <a href="./add-cart.html" id="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+
+
+        </header>
+        <div class="checkout-header">
+            <p>Checkout</p>
+            <span class="shop-demo">Shop is a demo app - form data will not be sent</span>
+        </div>
+
+        <div class="holder-details">
+            <div class="account-details">
+                <div class="account-info">
+                    <h5>Account Information</h5>
+                    <input type="email" name="email" id="email" placeholder="Email"><br>
+                    <input type="number" name="number" id="mobile-number" placeholder="Phone Number">
+                </div>
+
+                <div class="shipping-address">
+                    <h5>Shipping Adress</h5>
+                    <input type="text" name="address" id="address" placeholder="Address"><br>
+                    <input type="text" name="city" id="city" placeholder="City"><br>
+                    <div class="code">
+                        <input type="text" name="state" id="state" placeholder="State/Province">
+                        <input type="number" name="zip-code" id="zip-code" placeholder="Zip/Postal Code">
+                    </div>
+                </div><br>
+
+                <div class="country-info">
+                    <label for="country">Country</label><br>
+                    <select name="country" id="country">
+                        <option value="united states">United States</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div><br>
+
+                <div class="billing-address">
+                    <h5>Billing Address</h5><br>
+                    <div class="checkbox-content">
+                        <input type="checkbox" name="address" id="billing">
+                        <p>Use different billing address</p>
+                    </div>
+                </div><br><br>
+            </div>
+
+            <div class="payments-details">
+                <div class="payment-method">
+                    <h5>Payment Method</h5>
+                    <input type="text" name="name" id="holdername" placeholder="Cardholder Name"><br>
+                    <input type="number" name="card" id="card-number" placeholder="Card Number">
+                    <span class="expiry">Expiry</span>
+
+                    <div class="expiry-info">
+                        <select name="month" id="months">
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                            <option value="jun">Jun</option>
+                            <option value="jul">Jul</option>
+                            <option value="aug">Aug</option>
+                            <option value="sep">Sep</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="dec">Dec</option>
+                        </select>
+
+                        <select name="year" id="years">
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                        <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                    </div>
+                </div><br><br>
+
+                <div class="order-summary">
+                    <h5>Order Summary</h5><br>
+                    <div class="item">
+                        <p>Men's Tech Shell Full-Zip</p>
+                        <span>$50.20</span>
+                    </div><br>
+                    <div class="order-total">
+                        <p>Total</p>
+                        <span>$50.20</span>
+                    </div>
+                </div>
+                <footer class="order-footer1">
+                    <a href=""><button>PLACE ORDER</button></a>
+                </footer>
+            </div>
+
+        </div>
+        <footer class="order-footer"> <a href=""><button>PLACE ORDER</button></a></footer>
+    </div>
+</body>
+
+</html>

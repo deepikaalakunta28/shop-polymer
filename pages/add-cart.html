@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - SHOP</title>
+    <link rel="shortcut icon" href="../images/favicon-image.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+
+    <div class="cart-container">
+
+
+        <header class="header-content">
+
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+
+            <div class="sidebar">
+                <div class="shopping-items">
+                    <a href="../pages/mens-outerwear.html">Men's Outerwear</a>
+                    <a href="../pages/ladies-outerwear.html">Ladies Outerwear</a>
+                    <a href="">Men's T-Shirts</a>
+                    <a href="">Ladies T-Shirts</a>
+                </div>
+            </div>
+
+            <a href="../index.html" id="shop">SHOP</a>
+            <a href="" id="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+
+
+        </header>
+
+        <div class="outerwear-header">
+            <p>Your Cart</p>
+        </div>
+
+        <div class="added-items">
+            <div class="img-content">
+                <a href="../pages/each-item.html" class="img-content">
+                    <img src="../images/mens-outerwear1.jpg" alt="mens outerwear1">
+                </a>
+            </div>
+            <div class="price-details">
+                <div class="item-column">
+                    <p class="item-names">Men's Tech Shell Full-Zip</p>
+                    <a href="" class="mobile-icon"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+
+                <div class="quantity-level">
+                    <label for="qty" class="qty-level">Qty: </label>
+                    <select name="qty" id="qty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <p class="item-size">Size: M</p>
+                    <span class="item-price">$50.20</span>
+                    <a href="" class="desktop-icon"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="total-amount">
+            <span class="total">Total: </span>
+            <span class="dollar">$50.20</span>
+        </div>
+        <footer class="checkout-item">
+            <a href="../pages/checkout.html"><button>CHECKOUT</button></a>
+        </footer>
+    </div>
+</body>
+
+</html>
